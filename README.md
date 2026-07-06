@@ -15,7 +15,6 @@
 3. **视觉目标检测** — 基于 YOLOv5 实时识别苹果、时钟、香蕉等物体
 4. **精准抓取** — 6 轴机械臂配合超声波测距闭环实现厘米级抓取
 5. **分类放置** — 将不同物体放置到指定区域
-6. **远程控制** — 通过 Flask + ngrok 实现远程任务下发与监控
 
 ### 核心流程
 
@@ -111,12 +110,6 @@ roslaunch your_package gmapping.launch
 # 2. 启动主检测抓取系统
 python src/core/main.py
 
-# 3.（可选）启动远程任务服务器
-python src/server/server.py
-
-# 4.（可选）启动手柄遥操作
-rosrun your_package logitech_teleop_node
-```
 
 ### 参数配置
 
