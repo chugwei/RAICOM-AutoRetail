@@ -1,0 +1,45 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === ROS / C++ Build ===
+build/
+devel/
+install/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Environment ===
+.env
+.env.local
+venv/
+.venv/
+
+# === Logs ===
+*.log
+
+# === Config (keep template, ignore local overrides) ===
+# config/local_*
+
+# === Ngrok (binary) ===
+tools/ngrok/ngrok
